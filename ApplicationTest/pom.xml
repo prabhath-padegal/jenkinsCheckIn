@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ApplicationTest</groupId>
+  <artifactId>ApplicationTest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>iib-bar</packaging>
+  <build>
+		<!--sourceDirectory>C:\Anand\Dev_Services3\GeniusStatus_Dummy_App</sourceDirectory-->
+		<!--scriptSourceDirectory>C:\Anand\SourceCode\EA.Integration\ClaimsFeedService\GeniusStatus_Dummy_App</scriptSourceDirectory-->
+		<defaultGoal>package</defaultGoal>
+		
+		<resources>
+			<resource>
+				<directory>.</directory>				
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<groupId>ch.sbb.maven.plugins</groupId>
+				<artifactId>iib-maven-plugin</artifactId>
+				<version>4.3-SNAPSHOT</version>
+				
+				<configuration>
+					<toolkitInstallDir>C:\Program Files\IBM\IIB\10.0.0.16</toolkitInstallDir>
+					<barName>C:\Users\prabhath padegal\IBM\IIBT10\workspace4\BARfiles\ApplicationTest.bar</barName>
+					<workspace>C:\Users\prabhath padegal\IBM\IIBT10\workspace4</workspace>
+					<versionString>1.0</versionString>
+					<cleanBuild>true</cleanBuild>
+					<deployAsSource>true</deployAsSource>
+					<esql21>false</esql21>
+					<applicationName>ApplicationTest</applicationName>
+					<configPropFileDirectory>C:\Users\prabhath padegal\IBM\IIBT10\workspace4\ApplicationTest\OtherFiles</configPropFileDirectory>					
+					<defaultPropertiesFile>C:\Users\prabhath padegal\IBM\IIBT10\workspace4\ApplicationTest\target\iib\default.properties</defaultPropertiesFile>
+					
+					<debugWorkspace>true</debugWorkspace>
+				</configuration>
+
+				<extensions>true</extensions>
+			</plugin>
+		</plugins>
+	</build>
+  
+</project>
