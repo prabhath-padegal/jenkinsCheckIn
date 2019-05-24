@@ -22,7 +22,7 @@
 				
 				<configuration>
 					<toolkitInstallDir>C:\Program Files\IBM\IIB\10.0.0.16</toolkitInstallDir>
-					<barName>C:\Users\prabhath padegal\IBM\IIBT10\workspace4\BARfiles\ApplicationTest.bar</barName>
+					<barName>C:\Users\prabhath padegal\git\WorkingRepo\ApplicationTest\ApplicationTest.bar</barName>
 					<workspace>C:\Users\prabhath padegal\IBM\IIBT10\workspace4</workspace>
 					<versionString>1.0</versionString>
 					<cleanBuild>true</cleanBuild>
